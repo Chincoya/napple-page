@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Lucida Grande";
+  src: url("//db.onlinewebfonts.com/t/878812403fc38d24102f0458bf6e4744.eot");
+  src:
+    url("//db.onlinewebfonts.com/t/878812403fc38d24102f0458bf6e4744.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/878812403fc38d24102f0458bf6e4744.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/878812403fc38d24102f0458bf6e4744.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/878812403fc38d24102f0458bf6e4744.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/878812403fc38d24102f0458bf6e4744.svg#Lucida Grande") format("svg");
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
