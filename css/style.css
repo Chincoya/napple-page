@@ -15,4 +15,64 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 12px;
+}
+
+.floater-l {
+  float: left;
+}
+
+.min-1024 {
+  min-width: 1024px;
+}
+
+.inline-b {
+  display: inline-block;
+}
+
+.page-top {
+  display: block;
+}
+
+.nav {
+  display: flex;
+  height: 36px;
+  width: 980px;
+  margin: 18px auto 0 auto;
+  vertical-align: middle;
+}
+
+.nav-list {
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  background: grey;
+  background: linear-gradient(to top, lightgrey 50%, grey 50%, lightgrey 90%);
+  border-radius: 10%;
+  justify-content: space-between;
+  vertical-align: middle;
+  width: 100%;
+  height: inherit;
+}
+
+.nav-item {
+  height: 100%;
+}
+
+.nav-link {
+  color: inherit;
+  font-family: "Lucida Grande", Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-search {
+  padding: 5px;
+}
+
+.nav-search-input {
+  height: 20px;
+  width: 100%;
+  font-size: 10px;
 }
