@@ -179,3 +179,22 @@
   background-position: center top;
   background-repeat: no-repeat;
 }
+
+.page-bottom {
+  margin: 0 auto;
+  height: 200px;
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+}
+
+.floater-l {
+  float: left;
+}
+
+.banner-img {
+  display: inline-block;
+  height: 200px;
+  width: 25%;
+  object-fit: cover;
+}
