@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "Lucida Grande";
+  src: url("//db.onlinewebfonts.com/t/878812403fc38d24102f0458bf6e4744.eot");
+  src:
+    url("//db.onlinewebfonts.com/t/878812403fc38d24102f0458bf6e4744.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/878812403fc38d24102f0458bf6e4744.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/878812403fc38d24102f0458bf6e4744.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/878812403fc38d24102f0458bf6e4744.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/878812403fc38d24102f0458bf6e4744.svg#Lucida Grande") format("svg");
+}
+
+@font-face {
+  font-family: "Lucida Sans";
+  src: url("//db.onlinewebfonts.com/t/d324d81ab6bb59a57b48685202de640f.eot");
+  src:
+    url("//db.onlinewebfonts.com/t/d324d81ab6bb59a57b48685202de640f.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/d324d81ab6bb59a57b48685202de640f.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/d324d81ab6bb59a57b48685202de640f.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/d324d81ab6bb59a57b48685202de640f.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/d324d81ab6bb59a57b48685202de640f.svg#Lucida Sans") format("svg");
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.min-1024 {
+  min-width: 1024px;
+}
+
+.page-top {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  top: 0;
+  position: relative;
+  height: 540px;
+}
+
+.background-anchor {
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 540px;
+  width: inherit;
+  max-width: 1440px;
+  background-image: url("../img/your_verse_hero.jpg");
+  background-position: 50% -760px;
+}
+
+.nav {
+  position: relative;
+  top: 100px;
+  display: block;
+  height: 36px;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  background-image: linear-gradient(rgb(140, 140, 140), rgb(110, 110, 110) 50%, rgb(90, 90, 90) 51%, rgb(130, 130, 130));
+  border: none;
+  border-radius: 8px;
+  width: inherit;
+  height: inherit;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  border-right: 1px solid black;
+  width: 100px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav-search {
+  position: relative;
+  color: white;
+  width: 180px;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-search:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-link {
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  margin: auto 0;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 0.5px -1.5px black;
+}
+
+.nav-logo-cont {
+  border-radius: 8px 0 0 8px;
+  color: lightgrey;
+}
+
+.nav-search-input {
+  display: inline-block;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  transition-duration: 0.2s;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.nav-search-input:focus {
+  background-color: white;
+}
+
+.nav-search-logo {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+.nav-search-input:focus ~ .nav-search-logo {
+  color: grey;
+}
+
+.banner {
+  display: block;
+  color: white;
+  font-family: "Lucida Sans", sans-serif;
+  margin-top: 120px;
+  width: 100%;
+  height: 95px;
+  background-image: url("../img/your_verse_title_small.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.under-banner-1 {
+  display: block;
+  width: 100%;
+  height: 80px;
+  background-image: url("../img/your_verse_subhead_small.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.under-banner-2 {
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  height: 32px;
+  background-image: url("../img/cta_your_verse_27pt.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.page-bottom {
+  margin: 0 auto;
+  height: 200px;
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+}
+
+.floater-l {
+  float: left;
+}
+
+.banner-img-link {
+  width: 25%;
+}
+
+.banner-img {
+  display: inline-block;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.page-footer {
+  display: flex;
+  width: 1150px;
+  margin: 20px auto;
+  padding: 0 20px;
+  font-size: 10px;
+  flex-wrap: wrap;
+}
+
+.footer-details {
+  color: grey;
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 10px;
+  padding: 10px;
+  width: 50%;
+  display: block;
+}
+
+.footer-details a {
+  color: lightblue;
+}
+
+.footer-list {
+  list-style: none;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: baseline;
+}
+
+.footer-list-item {
+  display: inline-block;
+  padding-right: 5px;
+  border-right: 1px solid lightgrey;
+}
+
+.footer-list-item:last-child {
+  border: none;
+}
