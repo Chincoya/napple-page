@@ -200,22 +200,40 @@
 
 .page-footer {
   display: flex;
-  width: 1024px;
+  width: 1150px;
   margin: 20px auto;
   padding: 0 20px;
   font-size: 10px;
+  flex-wrap: wrap;
 }
 
-.foter-details {
+.footer-details {
+  color: grey;
+  font-family: "Lucida Grande", sans-serif;
   font-size: 10px;
-  margin: 10px 0;
+  padding: 10px;
+  width: 50%;
+  display: block;
+}
+
+.footer-details a {
+  color: lightblue;
 }
 
 .footer-list {
   list-style: none;
   font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: baseline;
 }
 
 .footer-list-item {
   display: inline-block;
+  padding-right: 5px;
+  border-right: 1px solid lightgrey;
+}
+
+.footer-list-item:last-child {
+  border: none;
 }
