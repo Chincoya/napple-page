@@ -191,10 +191,14 @@
   float: left;
 }
 
+.banner-img-link {
+  width: 25%;
+}
+
 .banner-img {
   display: inline-block;
   height: 200px;
-  width: 25%;
+  width: 100%;
   object-fit: cover;
 }
 
