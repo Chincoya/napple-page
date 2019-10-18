@@ -16,4 +16,4 @@ Then, you can run it in any browser that supports flexbox layout and it's proper
 
 ### Author:
 
-Daniel Chincoya | [@chincoya7](twitter.com/chincoya7)
+Daniel Chincoya | [@chincoya7](https://twitter.com/chincoya7)
